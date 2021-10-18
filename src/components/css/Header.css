@@ -32,3 +32,26 @@ nav ul li a {
 nav ul li a:hover {
     color: lightskyblue;
 }
+
+nav .nav-cart {
+    cursor: pointer;
+    position: relative;
+}
+
+nav .nav-cart span{
+    position: absolute;
+    top: -12px;
+    right: -7px;
+    background: crimson;
+    font-size: 10px;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+header .menu, 
+header .close {
+    cursor: pointer;
+    display: none;
+}
